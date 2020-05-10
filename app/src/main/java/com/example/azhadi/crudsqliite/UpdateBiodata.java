@@ -14,6 +14,7 @@ public class UpdateBiodata extends AppCompatActivity {
     // 10117277
     // Azhadi Fadila
     // IF-8
+    //Royal Never Give Up
     protected Cursor cursor;
     DataHelper dbHelper;
     Button ton1, ton2;
