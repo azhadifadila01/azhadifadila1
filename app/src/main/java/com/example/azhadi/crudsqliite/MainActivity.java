@@ -72,6 +72,11 @@ public class MainActivity extends AppCompatActivity {
                                 ,profile.class));
                         overridePendingTransition(0,0);
                         return true;
+                    case R.id.ic_import:
+                        startActivity(new Intent(getApplicationContext()
+                                ,kontak.class));
+                        overridePendingTransition(0,0);
+                        return true;
                 }
                 return false;
             }
@@ -96,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
             public void onItemClick(AdapterView arg0, View arg1, int arg2, long arg3) {
                 final String selection = daftar[arg2]; //.getItemAtPosition(arg2).toString();
-                final CharSequence[] dialogitem = {"Lihat Kontak", "Update Kontak", "Hapus Kontak"};
+                final CharSequence[] dialogitem = {"Lihat Teman", "Update Teman", "Hapus Teman"};
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Pilihan");
                 builder.setItems(dialogitem, new DialogInterface.OnClickListener() {

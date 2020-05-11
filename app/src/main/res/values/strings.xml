@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">10117277_Azhadi Fadila</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_buatbiodata">Form Kontak Baru</string>
-    <string name="title_activity_lihatbiodata">Lihat Kontak</string>
-    <string name="title_activity_updatebiodata">Update Kontak</string>
+    <string name="title_activity_buatbiodata">Tambah List Teman Baru</string>
+    <string name="title_activity_lihatbiodata">Lihat List Teman</string>
+    <string name="title_activity_updatebiodata">Update List Teman</string>
 </resources>

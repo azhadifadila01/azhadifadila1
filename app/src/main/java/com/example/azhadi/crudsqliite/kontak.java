@@ -7,23 +7,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class profile extends AppCompatActivity {
-    // 10-05-2020
-    // 10117277
-    // Azhadi Fadila
-    // IF-8
+public class kontak extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
+        setContentView(R.layout.activity_kontak);
 
         //Initialize and assign variable
 
         BottomNavigationView bottomNavigationView= findViewById(R.id.bottom_navigation);
 
         //set home selected
-        bottomNavigationView.setSelectedItemId(R.id.ic_profile);
+        bottomNavigationView.setSelectedItemId(R.id.ic_import);
 
         //perform item selected listener
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -36,11 +32,11 @@ public class profile extends AppCompatActivity {
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.ic_profile:
+                        startActivity(new Intent(getApplicationContext()
+                                ,profile.class));
+                        overridePendingTransition(0,0);
                         return true;
                     case R.id.ic_import:
-                        startActivity(new Intent(getApplicationContext()
-                                ,kontak.class));
-                        overridePendingTransition(0,0);
                         return true;
                 }
                 return false;

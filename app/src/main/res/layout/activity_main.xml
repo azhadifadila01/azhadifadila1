@@ -34,7 +34,7 @@
         android:layout_marginLeft="2dp"
         android:layout_marginBottom="66dp"
         android:drawableLeft="@drawable/icon_add"
-        android:text="Buat Kontak" />
+        android:text="Tambah Teman" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
