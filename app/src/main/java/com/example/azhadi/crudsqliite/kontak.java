@@ -8,7 +8,10 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 public class kontak extends AppCompatActivity {
-
+    // 12-05-2020
+    // 10117277
+    // Azhadi Fadila
+    // IF-8
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
